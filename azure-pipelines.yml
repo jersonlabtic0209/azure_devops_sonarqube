@@ -13,4 +13,6 @@ pool:
 steps:
 - script: dir
   displayName: 'Check directory'
+- script: echo Hello World!
+  displayName: Hello World
 
