@@ -8,14 +8,9 @@ trigger:
 
 pool:
   #vmImage: ubuntu-latest
-  vmImage: local
+  name: local
 
 steps:
 - script: echo Hello, world!
   displayName: 'Hello world'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
 
