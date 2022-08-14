@@ -11,6 +11,6 @@ pool:
   name: local
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Hello world'
+- script: dir
+  displayName: 'Check directory'
 
