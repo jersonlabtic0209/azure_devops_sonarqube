@@ -11,8 +11,6 @@ pool:
   name: local
 
 steps:
-- script: dir
+- script: ls -lahtr
   displayName: 'Check directory'
-- script: echo Hello World!
-  displayName: Hello World!
 
